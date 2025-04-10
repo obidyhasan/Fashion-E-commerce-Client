@@ -4,7 +4,13 @@ import { TiDelete } from "react-icons/ti";
 const CartItemCard = () => {
   return (
     <div className="flex gap-3 items-center w-full border-b border-base-300 py-4">
-      <div className="bg-base-200 min-w-20 h-20 rounded-2xl"></div>
+      <div className="min-w-20 h-20 ">
+        <img
+          className="w-full h-full rounded-2xl object-cover "
+          src="https://i.ibb.co.com/GvcpDRxq/f3.jpg"
+          alt=""
+        />
+      </div>
       <div className="w-full flex flex-col gap-1">
         <div className="flex items-center justify-between gap-1">
           <h1 className="text-base font-medium">Single Jersey Metro Hoodie</h1>

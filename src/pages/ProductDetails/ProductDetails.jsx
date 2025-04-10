@@ -7,7 +7,13 @@ const ProductDetails = () => {
   return (
     <div className="max-w-7xl mx-auto px-5 py-5">
       <div className="flex gap-5 md:flex-row flex-col">
-        <div className="w-full md:w-2/5 h-[400px] rounded bg-base-200"></div>
+        <div className="w-full md:w-2/5 h-[500px] rounded">
+          <img
+            className="w-full h-full object-cover rounded"
+            src="https://i.ibb.co.com/nqvNxCd8/f5.jpg"
+            alt=""
+          />
+        </div>
         <div className="w-full md:w-3/5 flex flex-col gap-2">
           <h1 className="text-xl font-medium">Single Jersey Metro Hoodie</h1>
           <p className="text-lg font-semibold text-orange-400">৳ 550</p>

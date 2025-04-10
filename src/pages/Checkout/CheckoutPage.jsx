@@ -60,7 +60,7 @@ const CheckoutPage = () => {
                   class="input w-full"
                 />
                 <div className=" grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <select defaultValue="Pick a color" className="select">
+                  <select defaultValue="Pick a color" className="select w-full">
                     <option disabled={true}>Select City</option>
                     <option>Crimson</option>
                     <option>Amber</option>

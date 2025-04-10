@@ -23,6 +23,9 @@ const Navbar = () => {
 
   const NavbarLink = (
     <>
+      <li className="sm:hidden">
+        <Link to={"/"}>Home</Link>
+      </li>
       <li>
         <Link to={"/shop"}>Shop</Link>
       </li>
@@ -179,7 +182,7 @@ const Navbar = () => {
             {/* Sidebar content here */}
 
             <div>
-              <div className="flex items-center justify-between mr-4">
+              <div className="flex items-center justify-between sm:mr-4">
                 <h1 className="text-lg font-semibold">Cart</h1>
                 <div className="cursor-pointer">
                   <div
@@ -193,13 +196,13 @@ const Navbar = () => {
                 </div>
               </div>
 
-              <section className="my-3 mr-4">
+              <section className="my-3 sm:mr-4">
                 <CartItemCard></CartItemCard>
                 <CartItemCard></CartItemCard>
                 <CartItemCard></CartItemCard>
               </section>
             </div>
-            <div className="mr-4 flex flex-col gap-3">
+            <div className="sm:mr-4 flex flex-col gap-3">
               <div className="flex items-center justify-between gap-5 text-base font-medium">
                 <p>Subtotal</p>
                 <p>৳ 4950</p>
